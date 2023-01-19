@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #6ddfdfb8;
+	font-family: Tahoma;
+	font-size: 12px;
+	line-height: 20px;
+	color: #777;
+}
+ul,li{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+#content{
+	background: #fff;
+	padding: 15px;
+	width: 90%;
+	margin: 15px auto;
+}
+
+#content #list{
+	text-align: center;
+}
+
+#content #list li{
+	border-bottom: 1px solid #ccc;
+	padding: 15px;
+	text-align: left;
+}
+	#content #list li img,
+	#content #list li .divLeft,
+	#content #list li .divRight{
+		display:  inline-block;
+		vertical-align: text-top;
+	}
+	#content #list li img{
+		border-radius: 50%;
+		margin-right: 10px;
+	}
+	#content #list li .divLeft strong{
+		display: block;
+		width:  100%;
+	}
+	#content #list li .divLeft strong:last-child{
+		font-weight: normal;
+	}
+	#content #list li .divRight{
+		text-align: right;
+		float: right;
+	}
+
+#content #paging{
+	margin: 10px auto;
+	text-align: center;
+}
+
+#content #paging button{
+	padding: 5px 10px;
+	border: 1px solid #6ddfdfb8;
+	border-radius: 4px;
+	margin: 0 3px;
+	display: inline-block;
+	cursor: pointer;
+	background: transparent;
+}
+	#content #paging button:hover,
+	#content #paging button.active{
+		background: #5ecdd296;
+		color:  #fff;
+	}
